@@ -1,0 +1,19 @@
+.accordion {
+  width: 100%; }
+  .accordion__item {
+    margin: -1px 0 0; }
+    .accordion__item span {
+      display: block;
+      text-align: left;
+      background: #eee;
+      border: 1px solid #ddd;
+      padding: 15px;
+      cursor: pointer; }
+    .accordion__item--is-open .accordion__content {
+      display: block; }
+  .accordion__content {
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+    background: #d6d6d6; }
+    .accordion__content .inner {
+      padding: 10px 20px; }
